@@ -1,0 +1,45 @@
+:root {
+  --color: black;
+  --back: white;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+.input {
+  width: 400px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 10px auto;
+  font-size: 50px;
+  text-align: right;
+  line-height: 100px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.btn {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+button {
+  width: 100px;
+  height: 100px;
+  color: var(--color);
+  background-color: green;
+  border: none;
+  font-size: 32px;
+}
+#dw {
+  font-size: 18px;
+}
+button:hover {
+  width: 100px;
+  height: 100px;
+  color: var(--color);
+  background-color: rgb(92, 138, 92);
+  border: none;
+  font-size: 30px;
+}
