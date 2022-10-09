@@ -22,7 +22,6 @@ for (index of btns) {
             input.innerHTML = eval(input.innerHTML)
         }else if(e.target.innerHTML == 'Dark / White'){
             body.classList.toggle('dark')
-            
         }else{
             input.innerHTML = input.innerHTML.split('')[0] == '0' ? input.innerHTML.split('').slice(1,input.innerHTML.split('').length).join('') : input.innerHTML
             input.textContent += e.target.innerHTML
