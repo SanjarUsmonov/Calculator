@@ -80,6 +80,7 @@ button:hover {
     overflow-x: auto;
     overflow-y: hidden;
     font-family: Dosis;
+    padding-right: 15px;
   }
   .btn {
     width: 100%;
