@@ -100,10 +100,10 @@ button:hover {
   }
   #dw {
     font-size: 18px;
-    border-radius: 0 0 0 38px;
+    border-radius: 0;
   }
   #teng {
-    border-radius: 0 0 38px 0;
+    border-radius: 0;
   }
   button:hover {
     background-color: var(--darkgreen);
